@@ -98,3 +98,7 @@ figure:hover::before {
 figure:hover figcaption {
   transform: perspective(500px)translateY(100%) rotateX(-30deg);
 }
+
+div:last-child {
+  display: none;
+}
